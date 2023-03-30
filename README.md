@@ -19,10 +19,11 @@ Create a quick script to do the conversion. The resulting bookmark.html can be v
 
 ### Future Direction:
 1. Add requirements.txt /environment.yml
-2. refactor the processing code into an importable class
-3. refactor to separate reading of the data from formating the output, using a class to store interim data
-4. add basic command line argument parsing
-5. possibles:
+2. remove dependency on pandas
+3. refactor the processing code into an importable class
+4. refactor to separate reading of the data from formating the output, using a class to store interim data
+5. add basic command line argument parsing
+6. possibles:
    1. web application
    2. local executables
    3. dockerization
